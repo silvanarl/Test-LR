@@ -7,17 +7,6 @@ export const GET_NOTES = {
     id
     title
     cover_titular
-    }
-  }`
-};
-
-export const GET_NOTE = {
-  query: gql`
-  {
-	notes(id: "2" ){
-    id
-    title
-    cover_titular
     text
     }
   }`
